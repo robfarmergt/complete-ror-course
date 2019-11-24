@@ -4,7 +4,7 @@ dial_book = {
 }.freeze
 
 def get_city_names(somehash)
-  somehash.each_key { |key| puts key }
+  puts somehash.keys
 end
 
 def get_area_code(somehash, key)
